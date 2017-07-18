@@ -1,26 +1,7 @@
 <?php
-/***************************************************************************
- * 
- * Copyright (c) 2014 Baidu.com, Inc. All Rights Reserved
- * 
- **************************************************************************/
-/**
- * 仅提供最基本的错误控制和初始化参数功能
- * 
- * @file BaseSDK.php
- * @encoding UTF-8
- * 
- * @date 2014年12月29日
- *
- */
+namespace Baidu\push\lib;
 
-require_once(PUSH_SDK_HOME.'/configure.php');
-
-require_once(PUSH_SDK_HOME.'/lib/HttpRequest.php');
-require_once(PUSH_SDK_HOME.'/lib/PushException.php');
-require_once(PUSH_SDK_HOME.'/lib/PushSimpleLog.php');
-require_once PUSH_SDK_HOME . '/lib/AssertHelper.php';
-
+use Exception;
 /**
  * 仅提供最基本的错误控制和初始化参数功能
  * 包装最基本的http访问动作, 参数类型定义等

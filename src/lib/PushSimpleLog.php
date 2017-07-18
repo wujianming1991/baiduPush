@@ -1,20 +1,6 @@
 <?php
-/**
- * *************************************************************************
- *
- * Copyright (c) 2014 Baidu.com, Inc. All Rights Reserved
- *
- * ************************************************************************
- */
-/**
- *
- * @file SimpleLog.php
- * @encoding UTF-8
- *
- * 
- *         @date 2014年12月25日
- *        
- */
+namespace Baidu\push\lib;
+
 class PushSimpleLog {
     private $out = null;
     private $log_level = 1;

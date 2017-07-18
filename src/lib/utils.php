@@ -1,20 +1,5 @@
 <?php
-/**
- * *************************************************************************
- *
- * Copyright (c) 2014 Baidu.com, Inc. All Rights Reserved
- *
- * ************************************************************************
- */
-/**
- *
- * @file utils.php
- * @encoding UTF-8
- * 
- * 
- *         @date 2014年12月25日
- *        
- */
+namespace Baidu\push\lib;
 
 class PushUtils {
     /**

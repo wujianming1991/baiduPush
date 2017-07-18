@@ -1,25 +1,6 @@
 <?php
-/**
- * *************************************************************************
- *
- * Copyright (c) 2014 Baidu.com, Inc. All Rights Reserved
- *
- * ************************************************************************
- */
-/**
- *
- * Packing the cUrl and make it easy
- *
- * @file HttpRequest.php
- * @encoding UTF-8
- * 
- * 
- *         @date 2014年12月25日
- *        
- */
-
-require_once(PUSH_SDK_HOME.'/lib/PushSimpleLog.php');
-require_once(PUSH_SDK_HOME.'/lib/PushException.php');
+namespace Baidu\push\lib;
+use Exception, HttpException;
 
 class HttpRequest {
     const HTTP_GET = 'GET';

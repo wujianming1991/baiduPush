@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Softon\\Sms\\": "src/"
+      "Baidu\\push\\": "src/"
     }
   }
 }
