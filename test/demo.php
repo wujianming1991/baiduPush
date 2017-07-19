@@ -1,20 +1,5 @@
 <?php
-/**
- * *************************************************************************
- *
- * Copyright (c) 2014 Baidu.com, Inc. All Rights Reserved
- *
- * ************************************************************************
- */
-/**
- *
- * @file hello.php
- * @encoding UTF-8
- *
- *
- *         @date 2015年3月10日
- *
- */
+
 require '../autoload.php';
 use Baidu\lib\PushSDK;
 
