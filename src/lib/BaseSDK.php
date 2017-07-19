@@ -1,6 +1,7 @@
 <?php
 namespace Baidu\lib;
 
+require_once 'configure.php';
 use Exception;
 /**
  * 仅提供最基本的错误控制和初始化参数功能

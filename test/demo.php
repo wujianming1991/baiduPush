@@ -16,12 +16,14 @@
  *
  */
 require '../autoload.php';
+use Baidu\lib\PushSDK;
+
 
 class demo{
     public function __construct(
     )
     {
-        $this->pushSdk = new \Baidu\lib\PushSDK();
+        $this->pushSdk = new PushSDK();
     }
 
     public function send()
