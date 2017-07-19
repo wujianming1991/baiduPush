@@ -1,5 +1,5 @@
 <?php
-namespace Baidu\push\lib;
+namespace Baidu\lib;
 
 use Exception;
 use ErrorException;
@@ -342,7 +342,6 @@ class PushSDK extends BaseSDK {
      * @link http://php.net/manual/zh/function.curl-setopt.php (curl_setopt相关内容)
      */
     function __construct($apiKey = null, $secretKey = null, $curlopts = array()) {
-        
         if($apiKey !== null && $secretKey !== null){
             $this -> setApiKey($apiKey);
             $this -> setSecretKey($secretKey);

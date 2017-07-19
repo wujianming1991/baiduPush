@@ -1,6 +1,6 @@
 <?php
 
-namespace Baidu\push\lib;
+namespace Baidu\lib;
 
 /**
  * 断言一个值是否符合指定条件

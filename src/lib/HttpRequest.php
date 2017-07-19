@@ -1,5 +1,5 @@
 <?php
-namespace Baidu\push\lib;
+namespace Baidu\lib;
 use Exception, HttpException;
 
 class HttpRequest {
