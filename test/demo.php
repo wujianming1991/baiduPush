@@ -15,7 +15,7 @@
  *         @date 2015年3月10日
  *
  */
-//require '../src/lib/autoload.php';
+require '../autoload.php';
 
 class demo{
     public function __construct(
