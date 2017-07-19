@@ -1,5 +1,7 @@
 <?php
 
+namespace Baidu\test;
+
 require '../autoload.php';
 use Baidu\lib\PushSDK;
 
